@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #948888;
+  padding: 20px;
+}
+
+/* estilo para subseccion */
+#about-me,
+#habilities {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: moccasin;
+}
+
+/* estilo para TITULO de la SUBSECCION */
+#about-me h2,
+#habilities h2 {
+  font-size: 30px;
+}
+
+/* estilo para la LISTA  */
+habilities ul {
+  list-style-type: square;
+}
+
+/* ESTILO DEL FOOTER */
+footer {
+  background-color: #b54444;
+  color: rgb(9, 47, 9);
+  text-align: center;
+  padding: 2px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos responsivos */
+/* para pantalla pequeña */
+@media only screen and (max-width: 600px) {
+  /* nuevo ajuste de padding de encabezado y subseccioens */
+  header,
+  #about-me,
+  #habilities {
+    padding: 10px;
+    background-color: aquamarine;
+  }
+  /* nueva fuente para titulos */
+  h2 {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 18px;
+    color: brown;
+  }
+}
+
+/* para pantalla mediana(tablet) */
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  header,
+  #about-me,
+  #habilities {
+    padding: 18px;
+    background-color: antiquewhite;
+  }
+  h2 {
+    font-size: 19px;
+  }
+  h1 {
+    font-size: 22px;
+    color: darkslategrey;
+  }
+}
+
+/* para pantalla desktop */
+
+@media only screen and (min-width: 1025px) {
+  header,
+  #about-me,
+  #habilities {
+    padding: 20px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h1 {
+    font-size: 30px;
+    color: darksalmon;
+  }
+}
